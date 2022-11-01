@@ -10,28 +10,48 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
 </head>
 
 <body>
   <header>
     <!-- place navbar here -->
-    <nav class="bg-light">
-        <div class="container">
-            <div class="bg-secondary py-4 w-100">
-
-            </div>
-        </div>
-    </nav>
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+      <div class="container">
+          <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
+              <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Anthony</span> Diaz
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#anthonydiaz">Qui suis-je ?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#expertise">Expertises</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+          </div>
+    </div>
+  </nav>
   </header>
   <main>
     <section class="py-5">
         <div class="container">
-            <div class="row gy-4">
+            <div class="row gy-4 align-items-center">
                 <div class="col-12 col-md-6">
-                    <h1>Bienvenue sur mon Portfolio</h1>
-                    <h2>Diaz Anthony</h2>
-                    <button>Voir mes compétences</button>
+                    <h1 class="fw-bold">Bienvenue sur mon Portfolio</h1>
+                    <h2 class="fw-light">Diaz Anthony</h2>
+                    <button class="btn btn-primary mt-5">Voir mes compétences</button>
                 </div>
                 <div class="col-12 col-md-6">
                     <img src="img/DSCF1862.jpg" alt="Photo de Florence" class="w-100">
@@ -41,11 +61,44 @@
     </section>
     <section class="py-5 bg-light">
         <div class="container">
-            <h2>Mon expertise</h2>
-            <h3>Développement et Web Design</h3>
+            <h2 class="fw-bold">Mon expertise</h2>
+            <h3 class="fw-light">Développement et Web Design</h3>
             <div class="row gy-4 mt-5">
                 <div class="col-12 col-md-7">
-                    <div class="bg-secondary h-100 w-100 py-5"></div>
+                  <div class=" p-3 bg-white">
+                    <div class="row align-items-center">
+                      <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                        <div class="d-flex align-items-center">
+                          <i class="fab fa-php fa-2x me-3 text-primary"></i>
+                          <p class="fw-bold m-0">PHP</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="progress">
+                          <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                               aria-valuemax="100">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3 p-3 bg-white">
+                    <div class="row align-items-center">
+                      <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                        <div class="d-flex align-items-center">
+                          <i class="fab fa-js-square fa-2x me-3 text-primary"></i>
+                          <p class="fw-bold m-0">JS</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="progress">
+                          <div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                               aria-valuemax="100">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="col-12 offset-md-1 col-md-4">
                     <img src="img/developpeur-web1.jpg" alt="Photo écran dev" width="100%">
@@ -64,8 +117,8 @@
 
     <section class="py-5">
         <div class="container">
-            <h2>mon portfolio</h2>
-            <h3>Projets perso et pro</h3>
+            <h2 class="fw-bold">mon portfolio</h2>
+            <h3 class="fw-light">Projets perso et pro</h3>
             <div class="row mt-4 gy-4">
                 <div class="col-3">
                     <div class="bg-secondary h-100 w-100 py-5"></div>
@@ -85,8 +138,8 @@
 
     <section class="py-5 bg-light">
         <div class="container">
-          <h2>Un projet de création web ?</h2>
-          <h3>Allons en discuter autour d'un café</h3>
+          <h2 class="fw-bold">Un projet de création web ?</h2>
+          <h3 class="fw-light">Allons en discuter autour d'un café</h3>
   
           <div class="row mt-5">
             <div class="col-12 col-md-5">
@@ -111,7 +164,11 @@
           <div class="bg-secondary py-5"></div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="bg-secondary py-5"></div>
+          <ul class="list-inline text-md-end">
+            <li class="list-inline-item"><i class="bi bi-linkedin"></i></li>
+            <li class="list-inline-item"><i class="bi bi-github"></i></li>
+            <li class="list-inline-item"><i class="bi bi-instagram"></i></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -120,6 +177,7 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
     <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </footer>
 </body>
 
