@@ -20,6 +20,18 @@ switch($controller){
         include(PATH.'/app/view/home.php');
         include(PATH.'/app/view/core/footer.php');
         break;
+    case('projets'):
+        include(PATH.'/app/view/core/head.php');
+        include(PATH.'/app/view/core/nav.php');
+        include(PATH.'/app/view/projets.php');
+        include(PATH.'/app/view/core/footer.php');
+        break;
+    case('veille'):
+        include(PATH.'/app/view/core/head.php');
+        include(PATH.'/app/view/core/nav.php');
+        include(PATH.'/app/view/veille.php');
+        include(PATH.'/app/view/core/footer.php');
+        break;
     case('ajax_contact'):
         include(PATH.'/app/src/ajax_contact.php');
         break;

@@ -17,3 +17,51 @@
 .text-ciel{
     color: #00a8e8;
 }
+
+.hide-li{
+    list-style-type: none;
+}
+
+.img_head_projets{
+    width: 100%;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+    ), url('../../img/programming.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.text_head{
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+
+}
+
+.legend_head{
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0;
+    color: #FFFFFF;
+    margin-bottom: 0;
+
+}
+
+.little_border {
+    height: 1px;
+    background-color: #FFFFFF;
+    width: 50px;
+    margin: 1% auto 1% auto;
+  }
