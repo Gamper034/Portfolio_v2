@@ -1,54 +1,5 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <title>Anthony DIAZ - Portfolio</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Bootstrap CSS v5.2.3 -->
-  <link href="plugins\bootstrap-5.2.3\css\bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="plugins\bootstrap-icons-1.10.2\font\bootstrap-icons.css">
-  <link rel="stylesheet" href="plugins\fontawesome\css\all.min.css">
-  <script src="plugins\bootstrap-5.2.3\js\bootstrap.min.js"></script>
-  <script src="plugins\bootstrap-5.2.3\js\bootstrap.min.js"></script>
-
-</head>
-
-<body>
-  <header class="py-4">
-    <!-- place navbar here -->
-    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-      <div class="container">
-          <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
-              <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Anthony</span> Diaz
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#anthonydiaz">Qui suis-je ?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#expertise">Expertises</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-          </div>
-      </div>
-  </nav>
-  </header>
   <main>
-    <section class="py-5">
+    <section class="py-5" id="welcome">
         <div class="container">
             <div class="row gy-4 align-items-center">
                 <div class="col-12 col-md-6">
@@ -66,13 +17,14 @@
         <div class="container">
             <h2 class="fw-bold">Mon expertise</h2>
             <h3 class="fw-light">Développement et Systèmes</h3>
+            <!-- Développement -->
             <div class="row gy-4 mt-5">
                 <div class="col-12 col-md-7">
-                  <div class=" p-3 bg-white">
+                  <div class=" p-3">
                     <div class="row align-items-center">
                       <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                         <div class="d-flex align-items-center">
-                          <i class="fab fa-php fa-2x me-3 text-primary"></i>
+                          <i class="fab fa-php fa-2x me-3 text-purple"></i>
                           <p class="fw-bold m-0">PHP</p>
                         </div>
                       </div>
@@ -85,11 +37,28 @@
                       </div>
                     </div>
                   </div>
-                  <div class="p-3 bg-white">
+                  <div class=" p-3">
                     <div class="row align-items-center">
                       <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                         <div class="d-flex align-items-center">
-                          <i class="fab fa-js-square fa-2x me-3 text-primary"></i>
+                          <i class="fa-brands fa-symfony fa-2x me-1 text-dark"></i>
+                          <p class="fw-bold m-0">Symfony</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="progress">
+                          <div class="progress-bar w-25" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                               aria-valuemax="100">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="p-3">
+                    <div class="row align-items-center">
+                      <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                        <div class="d-flex align-items-center">
+                          <i class="fab fa-js-square fa-2x me-3 text-yellow"></i>
                           <p class="fw-bold m-0">JS</p>
                         </div>
                       </div>
@@ -102,11 +71,28 @@
                       </div>
                     </div>
                   </div>
-                  <div class=" p-3 bg-white">
+                  <div class="p-3">
                     <div class="row align-items-center">
                       <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                         <div class="d-flex align-items-center">
-                          <i class="fab fa-html5 fa-2x me-3 text-primary"></i>
+                          <img src="img/jquery.png" alt="jquery icon" height="35px" class="me-2 ps-0"></i>
+                          <p class="fw-bold m-0">JQuery</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="progress">
+                          <div class="progress-bar w-50" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                               aria-valuemax="100">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class=" p-3">
+                    <div class="row align-items-center">
+                      <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                        <div class="d-flex align-items-center">
+                          <i class="fab fa-html5 fa-2x me-3 text-orange"></i>
                           <p class="fw-bold m-0">HTML</p>
                         </div>
                       </div>
@@ -119,11 +105,11 @@
                       </div>
                     </div>
                   </div>
-                  <div class="mb-3 p-3 bg-white">
+                  <div class="p-3">
                     <div class="row align-items-center">
                       <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                         <div class="d-flex align-items-center">
-                          <i class="fab fa-css3-alt fa-2x me-3 text-primary"></i>
+                          <i class="fab fa-css3-alt fa-2x me-3 text-blue"></i>
                           <p class="fw-bold m-0">CSS</p>
                         </div>
                       </div>
@@ -136,21 +122,39 @@
                       </div>
                     </div>
                   </div>
+                  <div class="mb-3 p-3">
+                    <div class="row align-items-center">
+                      <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                        <div class="d-flex align-items-center">
+                          <i class="fas fa-database fa-2x me-3 text-secondary"></i>
+                          <p class="fw-bold m-0">SQL</p>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="progress">
+                          <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                               aria-valuemax="100">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="col-12 offset-md-1 col-md-4">
                     <img src="img/developpeur-web1.jpg" alt="Photo écran dev" width="100%">
                 </div>
             </div>
+            <!-- Systeme -->
             <div class="row mt-5 gy-4">
                 <div class="col-12 col-md-4">
                     <img src="img/DSC_0212-3-2.jpg" alt="Photo écran dev" width="100%">
                 </div>
                 <div class="col-12 offset-md-1 col-md-7">
-                  <div class="p-3 bg-white">
+                  <div class="p-3">
                     <div class="row align-items-center">
                       <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                         <div class="d-flex align-items-center">
-                          <i class="fas fa-feather-alt fa-2x me-1 text-primary"></i>
+                          <i class="fas fa-feather-alt fa-2x me-1 text-orange"></i>
                           <p class="fw-bold m-0">Apache</p>
                         </div>
                       </div>
@@ -163,7 +167,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="p-3 bg-white">
+                  <div class="p-3 ">
                     <div class="row align-items-center">
                       <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                         <div class="d-flex align-items-center">
@@ -180,11 +184,11 @@
                       </div>
                     </div>
                   </div>
-                  <div class="p-3 bg-white">
+                  <div class="p-3 ">
                     <div class="row align-items-center">
                       <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                         <div class="d-flex align-items-center">
-                          <i class="fab fa-windows fa-2x me-3 text-primary"></i>
+                          <i class="fab fa-windows fa-2x me-3 text-ciel"></i>
                           <p class="fw-bold m-0">WS</p>
                         </div>
                       </div>
@@ -197,11 +201,11 @@
                       </div>
                     </div>
                   </div>
-                  <div class="p-3 bg-white">
+                  <div class="p-3 ">
                     <div class="row align-items-center">
                       <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                         <div class="d-flex align-items-center">
-                          <i class="fab fa-linux fa-2x me-3 text-primary"></i>
+                          <i class="fab fa-linux fa-2x me-3 text-dark"></i>
                           <p class="fw-bold m-0">Linux</p>
                         </div>
                       </div>
@@ -291,7 +295,7 @@
             </div>
             <div class="col-12 offset-md-1 col-md-6">
               <!-- Formulaire -->
-              <form class="row">
+              <div class="row">
                 <div class="col-6 my-2">
                     <label for="firstname" class="form-label">Prénom</label>
                     <input name="firstname" type="text" class="form-control" id="firstname">
@@ -309,54 +313,36 @@
                     <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                 </div>
                 <div class="col-12 my-2">
-                    <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                    <a id="submitForm" class="btn btn-primary w-100">Envoyer</a>
                 </div>
-              </form>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
   </main>
-  <footer class="border-top">
-    <div class="container py-5">
-        <div class="row gy-4 align-items-center">
-            <div class="col-12 col-md-4">
-                <a class="navbar-brand text-dark text-uppercase fw-bold" href="#">
-                    <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Anthony</span> Diaz
-                </a>
-            </div>
-            <div class="col-12 col-md-4 text-md-center">
-                <ul class="list-unstyled mb-0">
-                    <li>
-                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="modal"
-                           data-bs-target="#mentionsLegales">.....</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-4 text-md-end">
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item">
-                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
-                           title="LinkedIn">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip"
-                           title="Instagram">
-                            <i class="fab fa-instagram-square fa-2x"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" class="text-decoration-none text-dark" data-bs-toggle="tooltip" title="Twitter">
-                            <i class="fab fa-twitter-square fa-2x"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</body>
 
-</html>
+  <script>
+    $('#submitForm').click( function () {
+      $.ajax({
+          url: "/ajax_contact",
+          method: "POST",
+          dataType: 'JSON',
+          data: {
+              firstname: $('#firstname').val(),
+              name: $('#name').val(),
+              email: $('#email').val(),
+              message: $('#message').val(),
+          },
+          success: function(data) {
+              if (data.isDone == 1) {
+                  toastr.success(data.message);
+              } else {
+                  toastr.error(data.message);
+              }
+
+          }
+      });
+      toastr.success('toto');
+    });
+  </script>
