@@ -313,7 +313,7 @@
                     <textarea name="message" class="form-control" id="message" rows="3"></textarea>
                 </div>
                 <div class="col-12 my-2">
-                    <a id="submitForm" class="btn btn-primary w-100">Envoyer</a>
+                    <button id="submitForm" class="btn btn-primary w-100">Envoyer</button>
                 </div>
               </div>
             </div>
@@ -322,12 +322,13 @@
       </section>
   </main>
 
+
   <script>
     $('#submitForm').click( function () {
       $.ajax({
           url: "/ajax_contact",
           method: "POST",
-          dataType: 'JSON',
+          // dataType: 'JSON',
           data: {
               firstname: $('#firstname').val(),
               name: $('#name').val(),
@@ -335,14 +336,17 @@
               message: $('#message').val(),
           },
           success: function(data) {
-              if (data.isDone == 1) {
-                  toastr.success(data.message);
+              if (data == true) {
+                  toastr.success('Votre demande a bien été envoyée.');
+                  $( "#submitForm, #firstname, #name, #email, #message" ).prop( "disabled", true );
+                  $('#firstname').val('');
+                  $('#name').val('');
+                  $('#email').val('');
+                  $('#message').val('');
               } else {
                   toastr.error(data.message);
               }
-
           }
       });
-      toastr.success('toto');
     });
   </script>

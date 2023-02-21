@@ -22,12 +22,12 @@ try{
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host = 'smtp.office365.com';               //Adresse IP ou DNS du serveur SMTP
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'anthony.diaz@esicad.org';                     //SMTP username
-    $mail->Password   = 'FP6R3iD6';                               //SMTP password
+    $mail->Username   = $mailContact;                     //SMTP username
+    $mail->Password   = $passwordContact;                               //SMTP password
     $mail->SMTPSecure = 'STARTTLS';            //Enable implicit TLS encryption
     $mail->Port = 587;   
 
-    $mail->setFrom('anthony.diaz@esicad.org', 'Contact de mon portfolio');
+    $mail->setFrom($mailContact, 'Contact de mon portfolio');
     $mail->addAddress('a.diaz@socah.com', 'Envoi Reception');     //Add a recipient
 
     $mail->isHTML(true);                                  //Mail au format HTML
@@ -38,18 +38,9 @@ try{
     $mail->CharSet = 'UTF-8'; //Format d'encodage à utiliser pour les caractères
 
     $mail->send();
-    echo 'Message has been sent';
-    $arrayMail = array(
-        'isDone' => 1,
-        "message" => 'Votre demande a bien été envoyée.'
-    );
-    echo json_encode($arrayMail);
+    echo true;
 
 } catch (Exception $e) {
-    $arrayMail = array(
-        'isDone' => 0,
-        "message" => 'Votre demande n\' pu aboutir. Veuillez réessayer ultérieurement.'
-    );
-    echo json_encode($arrayMail);
+    echo false;
     // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }

@@ -12,10 +12,10 @@ $id_article = intval($id_article_parse);
 // dump($controller);
 // dump($_SESSION);
 
-include(PATH.'/app/view/core/head.php');
 
 switch($controller){
     case('home'):
+        include(PATH.'/app/view/core/head.php');
         include(PATH.'/app/view/core/nav.php');
         include(PATH.'/app/view/home.php');
         include(PATH.'/app/view/core/footer.php');
@@ -24,6 +24,7 @@ switch($controller){
         include(PATH.'/app/src/ajax_contact.php');
         break;
     default:
+        include(PATH.'/app/view/core/head.php');
         include(PATH.'/app/view/core/404.php');
         break;
 }
