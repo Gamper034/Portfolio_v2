@@ -10,16 +10,16 @@
 
   <link href="plugins/css/style.css" rel="stylesheet">
   <!-- Bootstrap CSS v5.2.3 -->
-  <link href="plugins\bootstrap-5.2.3\css\bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="plugins\bootstrap-icons-1.10.2\font\bootstrap-icons.css">
-  <link rel="stylesheet" href="plugins\fontawesome\css\all.min.css">
-  <script src="plugins\bootstrap-5.2.3\js\bootstrap.min.js"></script>
-  <script src="plugins\bootstrap-5.2.3\js\bootstrap.min.js"></script>
+  <link href="plugins\node_modules\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="plugins\bootstrap-icons-1.10.2\font\bootstrap-icons.css"> -->
+  <link rel="stylesheet" href="plugins\node_modules\@fortawesome\fontawesome-free\css\all.min.css">
+  <script src="plugins\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+  <script src="plugins\node_modules\bootstrap\dist\js\bootstrap.bundle.min.js"></script>
   <!-- JQuery -->
-  <script src="plugins\jquery\jquery-3.5.0.min.js"></script>
+  <script src="plugins\node_modules\jquery\dist\jquery.min.js"></script>
   <!-- toastr -->
-  <link rel="stylesheet" href="plugins\toastr\toastr.min.css">
-  <script src="plugins\toastr\toastr.min.js"></script>
+  <link rel="stylesheet" href="plugins\node_modules\toastr\build\toastr.min.css">
+  <script src="plugins\node_modules\toastr\build\toastr.min.js"></script>
 
 </head>
 

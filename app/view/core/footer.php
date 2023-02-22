@@ -27,11 +27,11 @@
                            <i class="fa-brands fa-instagram fa-1x"></i>
                         </a>
                     </li>
-                    <li class="list-inline-item">
+                    <!-- <li class="list-inline-item">
                         <a href="#" class="text-decoration-none text-secondary disable" data-bs-toggle="tooltip" title="Twitter">
                           <i class="fa-brands fa-twitter fa-1x"></i>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>

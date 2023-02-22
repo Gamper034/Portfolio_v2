@@ -24,20 +24,19 @@
     list-style-type: none;
 }
 
-.img_head_projets{
+#headHome{
     width: 100%;
     background: linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
-    ), url('../../img/programming.png');
+    ), url('../../img/DSC_0212-3-2.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 700px;
+    display: grid;
+    place-items: center;
 }
 
 .img_head_projets{
@@ -74,11 +73,23 @@
 
 }
 
-.little_border {
+.white_border {
     height: 1px;
     background-color: #FFFFFF;
     width: 50px;
     margin: 1% auto 1% auto;
+}
+
+.black_border {
+    height: 1px;
+    background-color: #000000;
+    width: 50px;
+    margin: 1% auto 1% auto;
+}
+
+#profilPhoto{
+    width: 150px;
+    height: auto;
 }
 
 /* h2 {
