@@ -1,19 +1,19 @@
-<div class="img_head_projets container">
+<div class="container-build" id="headVeille">
     <div class="legend_head">
-        <h1>Veille Technologique</h1>
-        <div class="little_border"></div>
-        <p>Autour du développement Web</p>
+        <p class="m-0">Veille Technologique</p>
+        <div class="white_border"></div>
+        <p class="m-0">Autour du développement Web</p>
     </div>
 </div>
 
 <section class="py-5 bg-light" id="presentation-projets">
     <div class="container">
-        <h2 class="mb-0">Présentation</h2>
-        <!-- <h3 class="fw-light">Définition</h3> -->
-        <h4 class="fw-light text-center">Définition</h4>
+        <h2 class="mb-0">Ma veille</h2>
+        <div class="black_border"></div>
+        <h3 class="fw-light text-center mt-4">Définition</h3>
         <p class="p-4 text-center">Une veille est une activité consistant à rester au courant des dernières avancées et informations sur un secteur donné. Durant ma formation je me suis principalement intéressé à <b>l'actualité autour du développement</b> web ainsi qu'à la <b>cybersécurité.</b>
         </p>
-        <h4 class="fw-light text-center">Note de synthèse</h4>
+        <h3 class="fw-light text-center">Note de synthèse</h3>
         <div class="mt-4">
             <div class="d-flex justify-content-evenly">
                 <div class="card bg-transparent" style="width: 18rem;">

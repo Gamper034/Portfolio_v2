@@ -1,9 +1,9 @@
   <main>
       <div class="container-build" id="headHome">
           <div class="legend_head">
-              <p>Bienvenue sur mon PORTFOLIO</p>
+              <p class="m-0">Bienvenue sur mon PORTFOLIO</p>
               <div class="white_border"></div>
-              <p>Anthony DIAZ</p>
+              <p class="m-0">Anthony DIAZ</p>
           </div>
       </div>
       <section class="py-5" id="welcome">

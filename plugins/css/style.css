@@ -54,7 +54,22 @@ h3 {
     place-items: center;
 }
 
-.img_head_projets{
+#headProjets{
+    width: 100%;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+    ), url('../../img/programming.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+
+#headVeille{
     width: 100%;
     background: linear-gradient(
     rgba(0, 0, 0, 0.45), 
