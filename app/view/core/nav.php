@@ -10,13 +10,13 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item nav-style">
                     <a class="nav-link" href="/">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-style">
                     <a class="nav-link" href="/projets">Projets</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-style">
                     <a class="nav-link" href="/veille">Veille</a>
                 </li>
             </ul>
