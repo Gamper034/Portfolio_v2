@@ -1,0 +1,14 @@
+
+// cmd: sass css/mybootstrap.scss css/mybootstrap.css
+$primary:       #A67356;
+$secondary:     #D9BDAD;
+// $success:       $green;
+// $info:          $cyan;
+// $warning:       $yellow;
+// $danger:        $red;
+$light:         #F2F2F2;
+$dark:          #261717;
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

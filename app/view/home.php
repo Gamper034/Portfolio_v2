@@ -1,7 +1,7 @@
   <main>
       <div class="container-build" id="headHome">
           <div class="legend_head">
-              <h1>Bienvenue sur mon PORTFOLIO</h1>
+              <p>Bienvenue sur mon PORTFOLIO</p>
               <div class="white_border"></div>
               <p>Anthony DIAZ</p>
           </div>
@@ -12,18 +12,18 @@
               <div class="black_border"></div>
               <div class="container">
                   <div class="row">
-                      <div class="col-8">
-                          <p>Issu d'un premier BTS CG et après une expérience en comptabilité, je me suis réorienté vers
+                      <div class="col-8 d-flex align-items-center">
+                          <div>Issu d'un premier BTS CG et après une expérience en comptabilité, je me suis réorienté
+                              vers
                               un
                               BTS SIO option SLAM en alternance, je travaille éventuellement sur des projets de
                               développement pour améliorer le quotidien des utilisateurs. J'effectue aussi du support
                               afin
-                              d'améliorer mes compétences en Système & Réseau.</p>
-                          <div class="">
-                              <a type="button" class="btn btn-light btn-sm"
-                                  href="<?php echo BASE_URL?>/img/DIAZ_Anthony_CV.pdf" target="_blank"><i
-                                      class="fa-regular fa-file-pdf fa-xl me-1"></i>Télécharger mon CV</a>
+                              d'améliorer mes compétences en Système & Réseau. <br>
+
+                              <a type="button" class="btn btn-light btn-sm mt-2" href="<?php echo BASE_URL?>/img/DIAZ_Anthony_CV.pdf" target="_blank"><i class="fa-regular fa-file-pdf fa-xl me-1"></i>Télécharger mon CV</a>
                           </div>
+
                       </div>
                       <div class="col-4 d-flex justify-content-center">
                           <img src="<?php echo BASE_URL?>/img/IMG_3942.jpg" class="rounded" alt="Pho de Diaz Anthony"
@@ -38,6 +38,7 @@
       <section id="expertise" class="py-5 bg-light">
           <div class="container">
               <h2 class="fw-bold">Mon expertise</h2>
+              <div class="black_border"></div>
               <h3 class="fw-light">Développement et Systèmes</h3>
               <!-- Développement -->
               <div class="row gy-4 mt-5">
@@ -52,7 +53,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                                      <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -69,7 +70,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-25" role="progressbar" aria-valuenow="25"
+                                      <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="25"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -86,7 +87,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-25" role="progressbar" aria-valuenow="25"
+                                      <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="25"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -103,7 +104,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-50" role="progressbar" aria-valuenow="50"
+                                      <div class="progress-bar w-50 bg-primary" role="progressbar" aria-valuenow="50"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -120,7 +121,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                                      <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -137,7 +138,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-25" role="progressbar" aria-valuenow="25"
+                                      <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="25"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -154,7 +155,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                                      <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -182,7 +183,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                                      <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -199,7 +200,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                                      <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -216,7 +217,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-50" role="progressbar" aria-valuenow="50"
+                                      <div class="progress-bar w-50 bg-primary" role="progressbar" aria-valuenow="50"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -233,7 +234,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-25" role="progressbar" aria-valuenow="25"
+                                      <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="25"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -250,7 +251,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-75" role="progressbar" aria-valuenow="75"
+                                      <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -265,8 +266,10 @@
 
       <section class="py-5">
           <div class="container">
-              <h2 class="fw-bold">Un projet de création web ?</h2>
-              <h3 class="fw-light">Allons en discuter autour d'un café</h3>
+              <h2 class="">Un projet de création web ?</h2>
+              <div class="black_border"></div>
+
+              <h3 class="">Allons en discuter autour d'un café</h3>
 
               <div class="row mt-5">
                   <div class="col-12 col-md-5">
