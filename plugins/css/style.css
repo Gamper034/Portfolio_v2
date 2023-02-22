@@ -1,3 +1,5 @@
+/* @import url("https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700"); */
+
 .text-purple{
     color: #5f80b8;
 }
@@ -36,8 +38,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-
+.img_head_projets{
+    width: 100%;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+    ), url('../../img/programming.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    display: grid;
+    place-items: center;
 }
 
 .text_head{
@@ -64,4 +79,12 @@
     background-color: #FFFFFF;
     width: 50px;
     margin: 1% auto 1% auto;
-  }
+}
+
+/* h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+} */

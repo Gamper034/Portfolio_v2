@@ -1,4 +1,5 @@
 <?php
+
 define('PATH', $_SERVER['DOCUMENT_ROOT']);
 define('BASE_URL', 'http://anthony-diaz');
 include(PATH.'/vendor/autoload.php');
