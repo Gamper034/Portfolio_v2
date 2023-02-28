@@ -51,7 +51,7 @@ h3 {
     background: linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
-    ), url('../../files/img/DSC_0212-3-2.jpg');
+    ), url('../../files/img/home.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,8 +59,10 @@ h3 {
     height: 700px;
     display: grid;
     place-items: center;
-    background-position: center;
+    /* background-position: center; */
 }
+
+
 
 #headProjets{
     width: 100%;
@@ -92,6 +94,22 @@ h3 {
     display: grid;
     place-items: center;
     background-position: center;
+}
+
+#imgContact{
+    width: 100%;
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.45), 
+    rgba(0, 0, 0, 0.45)
+    ), url('../../files/img/contact.jpg');
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+    /* background-origin: content-box;  */
+
+
 }
 
 .text_head{

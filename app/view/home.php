@@ -15,16 +15,21 @@
                   <div class="row">
                       <div class="col-md-12 col-lg-8 order-2 order-lg-1 my-4 d-flex align-items-center">
                           <div>Issu d'un premier BTS CG et après une expérience en comptabilité, je me suis réorienté
-                              vers un BTS SIO option SLAM en alternance, je travaille éventuellement sur des projets de développement web pour améliorer le quotidien des utilisateurs sur notre intranet. J'effectue aussi du support afin d'améliorer mes compétences en Système & Réseau. <br>
-                              En dehors de l'informatique je suis également un grand passionné de photographies et de voyages. Certaines photos du site sont issues de mes propres voyages.<br>
+                              vers un BTS SIO option SLAM en alternance, je travaille éventuellement sur des projets de
+                              développement web pour améliorer le quotidien des utilisateurs sur notre intranet.
+                              J'effectue aussi du support afin d'améliorer mes compétences en Système & Réseau. <br>
+                              En dehors de l'informatique je suis également un grand passionné de photographies et de
+                              voyages. Certaines photos du site sont issues de mes propres voyages.<br>
 
-                              <a type="button" class="btn btn-light btn-sm mt-2" href="<?php echo BASE_URL?>/files/pdf/DIAZ_Anthony_CV.pdf" target="_blank"><i class="fa-regular fa-file-pdf fa-xl me-1"></i>Télécharger mon CV</a>
+                              <a type="button" class="btn btn-light btn-sm mt-2"
+                                  href="<?php echo BASE_URL?>/files/pdf/DIAZ_Anthony_CV.pdf" target="_blank"><i
+                                      class="fa-regular fa-file-pdf fa-xl me-1"></i>Télécharger mon CV</a>
                           </div>
 
                       </div>
                       <div class="col-md-12 col-lg-4 order-1 order-lg-2 my-4 d-flex justify-content-center">
-                          <img src="<?php echo BASE_URL?>/files/img/IMG_3942.jpg" class="rounded" alt="Pho de Diaz Anthony"
-                              id="profilPhoto">
+                          <img src="<?php echo BASE_URL?>/files/img/IMG_3942.jpg" class="rounded"
+                              alt="Pho de Diaz Anthony" id="profilPhoto">
                       </div>
                   </div>
               </div>
@@ -37,10 +42,11 @@
           <div class="container">
               <h2 class="fw-bold">Mon expertise</h2>
               <div class="black_border"></div>
-              <h3 class="fw-light">Développement et Autres</h3>
               <!-- Développement -->
               <div class="row gy-4 mt-5">
-                  <div class="col-sm-12 col-md-7 order-2 order-md-1">
+                  <div class="col-sm-12 col-md-7">
+                      <h3 class="fw-light">Développement</h3>
+                      <div class="black_border"></div>
                       <div class=" p-3">
                           <div class="row align-items-center">
                               <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
@@ -178,16 +184,19 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-sm-12 offset-md-1 col-md-4 order-1 order-md-2 text-center">
+                  <div
+                      class="col-sm-12 offset-md-1 col-md-4 d-none d-md-block">
                       <img src="files/img/img_dev.jpg" alt="Photo écran dev" width="80%" class="rounded">
                   </div>
               </div>
               <!-- Systeme -->
               <div class="row mt-5 gy-4">
-                  <div class="col-sm-12 col-md-4 text-center">
+                  <div class="col-sm-12 col-md-4 d-none d-md-block">
                       <img src="files/img/img_systeme.jpg" alt="Photo bureau" width="80%" class="rounded">
                   </div>
                   <div class="col-sm-12 offset-md-1 col-md-7">
+                      <h3 class="fw-light">Systèmes</h3>
+                      <div class="black_border"></div>
                       <div class="p-3">
                           <div class="row align-items-center">
                               <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
@@ -305,8 +314,41 @@
 
               <div class="row mt-5">
                   <div class="col-sm-12 col-md-5">
-                      <img src="files/img/DSCF1862.jpg" alt="Image d'une tasse de café" style="object-fit:cover;"
-                          height="400px" width="100%"  class="rounded">
+                      <!-- <img src="files/img/DSCF1862.jpg" alt="Image d'une tasse de café" style="object-fit:cover;"
+                          height="400px" width="100%"  class="rounded"> -->
+
+                      <div id="imgContact" class=" rounded">
+                          <div class="container d-flex h-100">
+                              <div class="row align-self-center">
+                                  <div class="text-center mb-2">
+                                      <h2 class="text-white">Coordonnées</h2>
+                                      <div class="white_border"></div>
+                                      <div class="d-flex flex-column mb-3 text-white">
+                                          <div class="p-1 fs-5">Anthony Diaz</div>
+                                          <div class="p-1 fst-italic">Apprenti technicien réseau & développeur</div>
+                                          <div class="p-1">
+                                              <span class="me-4"><i class="fa-solid fa-phone me-2"></i>07 78 14 38
+                                                  56</span>
+                                              <span><i
+                                                      class="fa-solid fa-envelope me-2"></i>anthony-diaz@outlook.fr</span>
+                                          </div>
+                                      </div>
+
+                                  </div>
+                                  <div class="text-center">
+                                      <h2 class="text-white">Follow me</h2>
+                                      <div class="white_border mb-3"></div>
+                                      <a href="https://fr.linkedin.com/in/anthony-diaz-502238b4" target="_blank" title="LinkedIn"> <i class="fab fa-linkedin  text-white fa-xl mx-1"></i>
+                                      </a>
+                                      <a href="https://www.instagram.com/antho_d34/?hl=fr" target="_blank" title="Instagram"> <i class="fa-brands fa-instagram  text-white fa-xl mx-1"></i>
+                                      </a>
+                                      <a href="https://github.com/Gamper034" target="_blank" title="Github">
+                                          <i class="fa-brands fa-github text-white fa-xl mx-1"></i>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                   </div>
                   <div class="col-sm-12 offset-md-1 col-md-6 mt-4">
                       <!-- Formulaire -->
@@ -339,29 +381,29 @@
 
 
   <script>
-    $('#submitForm').click(function() {
-        $.ajax({
-            url: "/ajax_contact",
-            method: "POST",
-            // dataType: 'JSON',
-            data: {
-                firstname: $('#firstname').val(),
-                name: $('#name').val(),
-                email: $('#email').val(),
-                message: $('#message').val(),
-            },
-            success: function(data) {
-                if (data == true) {
-                    toastr.success('Votre demande a bien été envoyée.');
-                    $("#submitForm, #firstname, #name, #email, #message").prop("disabled", true);
-                    $('#firstname').val('');
-                    $('#name').val('');
-                    $('#email').val('');
-                    $('#message').val('');
-                } else {
-                    toastr.error(data.message);
-                }
+$('#submitForm').click(function() {
+    $.ajax({
+        url: "/ajax_contact",
+        method: "POST",
+        // dataType: 'JSON',
+        data: {
+            firstname: $('#firstname').val(),
+            name: $('#name').val(),
+            email: $('#email').val(),
+            message: $('#message').val(),
+        },
+        success: function(data) {
+            if (data == true) {
+                toastr.success('Votre demande a bien été envoyée.');
+                $("#submitForm, #firstname, #name, #email, #message").prop("disabled", true);
+                $('#firstname').val('');
+                $('#name').val('');
+                $('#email').val('');
+                $('#message').val('');
+            } else {
+                toastr.error(data.message);
             }
-        });
+        }
     });
+});
   </script>

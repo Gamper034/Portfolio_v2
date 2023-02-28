@@ -6,7 +6,7 @@
     </div>
 </div>
 
-<section class="py-5 bg-light" id="presentation-projets">
+<section class="py-5" id="presentation-projets">
     <div class="container">
         <h2 class="mb-0">Ma veille</h2>
         <div class="black_border"></div>
