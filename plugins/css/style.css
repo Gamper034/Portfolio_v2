@@ -51,7 +51,7 @@ h3 {
     background: linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
-    ), url('../../img/DSC_0212-3-2.jpg');
+    ), url('../../files/img/DSC_0212-3-2.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -59,6 +59,7 @@ h3 {
     height: 700px;
     display: grid;
     place-items: center;
+    background-position: center;
 }
 
 #headProjets{
@@ -66,7 +67,7 @@ h3 {
     background: linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
-    ), url('../../img/programming.png');
+    ), url('../../files/img/projets.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -74,6 +75,7 @@ h3 {
     height: 400px;
     display: grid;
     place-items: center;
+    background-position: center;
 }
 
 #headVeille{
@@ -81,7 +83,7 @@ h3 {
     background: linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
-    ), url('../../img/programming.png');
+    ), url('../../files/img/veille.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,6 +91,7 @@ h3 {
     height: 400px;
     display: grid;
     place-items: center;
+    background-position: center;
 }
 
 .text_head{

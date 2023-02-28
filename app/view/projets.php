@@ -41,67 +41,67 @@
          <h2 class="mb-0">Mon Portfolio</h2>
          <div class="black_border"></div>
          <h3 class="fw-light">Projets perso et pro</h3>
-         <div class="row gy-4 gy-md-0 mt-4">
+         <!-- Projets -->
+         <div class="row gy-4 gy-md-0 mt-4 px-4">
              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 
                  <div class="card">
-                     <img src="img/socah_green.png" class="card-img-top" alt="Logo Socah">
+                     <img src="files/img/socah_green.png" class="card-img-top p-4" alt="Logo Socah">
                      <div class="card-body">
-                         <h5 class="card-title">PIM Socah</h5>
-                         <p class="card-text">Construction d'une base de données administrable graphiquement pour les
-                             produits.</p>
-                         <a class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#pim_socah"
-                             aria-controls="pim_socah">En savoir plus</a>
+                         <h5 class="card-title">Intranet 2.0 Socah</h5>
+                         <p class="card-text">Nouvelle version de l'intranet. (Version fictive)</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
+                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
+                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
 
-                     </div>
-                 </div>
-                 <div class="offcanvas offcanvas-bottom h-100" tabindex="-1" z-index="10" id="pim_socah"
-                     aria-labelledby="title_pim_socah">
-                     <div class="offcanvas-header">
-                         <h5 class="offcanvas-title" id="title_pim_socah">PIM Socah</h5>
-                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                             aria-label="Close"></button>
-                     </div>
-                     <div class="offcanvas-body">
-                         Content for the offcanvas goes here. You can place just about any Bootstrap component or custom
-                         elements here.
                      </div>
                  </div>
 
              </div>
              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                  <div class="card">
-                     <img src="img/log4j-hns-650.jpg" class="card-img-top" alt="faille log4shell">
+                     <img src="files/img/socah_green.png" class="card-img-top p-4" alt="Logo ETG">
                      <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                             the card's content.</p>
-                         <a href="#" class="btn btn-primary">Go somewhere</a>
+                         <h5 class="card-title">Promotion ETG</h5>
+                         <p class="card-text">Mise en place d'une interface web pour scanner et envoyer les bons de
+                             commandes au service achat.</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
+                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
+                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
+
                      </div>
                  </div>
              </div>
-             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+
+             <div class="col-sm-6 col-md-4 col-lg-3">
                  <div class="card">
-                     <img src="img/proxmox.png" class="card-img-top" alt="logo proxmox">
+                     <img src="files/img/socah_green.png" class="card-img-top p-4" alt="Logo ETG">
                      <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                             the card's content.</p>
-                         <a href="#" class="btn btn-primary">Go somewhere</a>
+                         <h5 class="card-title">Client Lourd PPE</h5>
+                         <p class="card-text">Application Desktop destinée à aider la flotte commerciaux dans la gestion
+                             de leur portefeuille client.</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
+                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
+                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
+
                      </div>
                  </div>
              </div>
-             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+             <div class="col-sm-6 col-md-4 col-lg-3">
                  <div class="card">
-                     <img src="img/windows_server.png" class="card-img-top" alt="logo windows server">
+                     <img src="files/img/windows_server.png" class="card-img-top" alt="Logo ETG">
                      <div class="card-body">
-                         <h5 class="card-title">Card title</h5>
-                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                             the card's content.</p>
-                         <a href="#" class="btn btn-primary">Go somewhere</a>
+                         <h5 class="card-title">Serveur d'impression</h5>
+                         <p class="card-text">Mise en place d'un serveur d'impression.</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
+                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
+                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
+
                      </div>
                  </div>
              </div>
          </div>
+
      </div>
+
  </section>
