@@ -3,7 +3,7 @@
           <div class="legend_head">
               <p class="m-0">Bienvenue sur mon PORTFOLIO</p>
               <div class="white_border"></div>
-              <p class="m-0">Anthony DIAZ</p>
+              <p class="m-0">Anthony Diaz</p>
           </div>
       </div>
       <!-- Presentation -->

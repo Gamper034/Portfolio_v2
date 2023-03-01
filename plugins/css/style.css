@@ -24,6 +24,14 @@
     list-style-type: none;
 }
 
+.bg-m2l{
+    background-color: #f2eee2;
+}
+
+.bg-card{
+    background-color: #F1F1F1;
+}
+
 h2{
     font-weight: 700 !important;
     text-transform: uppercase;

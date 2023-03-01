@@ -43,39 +43,44 @@
          <h3 class="fw-light">Projets perso et pro</h3>
          <!-- Projets -->
          <div class="row gy-4 gy-md-0 mt-4 px-4">
-             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
 
                  <div class="card">
-                     <img src="files/img/socah_green.png" class="card-img-top p-4" alt="Logo Socah">
+                    <div class="bg-card">
+                        <img src="files/img/socah_green.png" class="card-img-top p-4 border-bottom" alt="Logo Socah">
+                    </div>
                      <div class="card-body">
-                         <h5 class="card-title">Intranet 2.0 Socah</h5>
-                         <p class="card-text">Nouvelle version de l'intranet. (Version fictive)</p>
-                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
-                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
-                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
+                         <h5 class="card-title">Intranet Socah</h5>
+                         <p class="card-text">Nouvelle version de l'intranet.</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2"
+                             href="<?php echo BASE_URL?>/files/pdf/ppe_intranet_socah.pdf" target="_blank">En savoir
+                             plus</a>
 
                      </div>
                  </div>
 
              </div>
-             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
                  <div class="card">
-                     <img src="files/img/socah_green.png" class="card-img-top p-4" alt="Logo ETG">
+                    <div class="bg-card">
+                        <img src="files/img/etg.png" class="card-img-top p-4 border-bottom" alt="Logo ETG">
+                    </div>
                      <div class="card-body">
                          <h5 class="card-title">Promotion ETG</h5>
                          <p class="card-text">Mise en place d'une interface web pour scanner et envoyer les bons de
                              commandes au service achat.</p>
-                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
-                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
-                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
+                         <a type="button" class="btn btn-light btn-sm mt-2"
+                             href="<?php echo BASE_URL?>/files/pdf/ppe_etg_socah.pdf" target="_blank">En savoir plus</a>
 
                      </div>
                  </div>
              </div>
 
-             <div class="col-sm-6 col-md-4 col-lg-3">
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
                  <div class="card">
-                     <img src="files/img/socah_green.png" class="card-img-top p-4" alt="Logo ETG">
+                    <div class="bg-card">
+                        <img src="files/img/socah_green.png" class="card-img-top p-4 border-bottom" alt="Logo">
+                    </div>
                      <div class="card-body">
                          <h5 class="card-title">Client Lourd PPE</h5>
                          <p class="card-text">Application Desktop destinée à aider la flotte commerciaux dans la gestion
@@ -87,12 +92,70 @@
                      </div>
                  </div>
              </div>
-             <div class="col-sm-6 col-md-4 col-lg-3">
+             <div class=" col-xs-12 col-sm-6 col-lg-3 my-2">
                  <div class="card">
-                     <img src="files/img/windows_server.png" class="card-img-top" alt="Logo ETG">
+                     <img src="files/img/windows_server.png" class="card-img-top border-bottom" alt="Logo Windows Server">
                      <div class="card-body">
                          <h5 class="card-title">Serveur d'impression</h5>
                          <p class="card-text">Mise en place d'un serveur d'impression.</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2"
+                             href="<?php echo BASE_URL?>/files/pdf/ppe_serveur_impression.pdf" target="_blank">En savoir
+                             plus</a>
+
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="row gy-4 gy-md-0 mt-4 px-4">
+             <div class=" col-xs-12 col-sm-6  col-lg-3 my-2">
+                 <div class="card">
+                    <div class="bg-card">
+                        <img src="files/img/glpi_logo.png" class="card-img-top p-4 border-bottom" alt="Logo GLPI">
+                    </div>
+                     <div class="card-body">
+                         <h5 class="card-title">GLPI</h5>
+                         <p class="card-text">Mise en place d'un GLPI 10 sous debian.</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2"
+                             href="<?php echo BASE_URL?>/files/pdf/ppe_glpi.pdf" target="_blank">En savoir plus</a>
+
+                     </div>
+                 </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
+                 <div class="card">
+                    <div class="d-flex justify-content-center py-2 border-bottom bg-card">
+                        <img src="files/img/labeauf_logo.png" class="card-img-top" alt="Logo la Beauf" style="height:110px; width:110px;">
+                    </div>
+                     <div class="card-body">
+                         <h5 class="card-title">La BEAUF</h5>
+                         <p class="card-text">Site vitrine pour une brasserie artisanale basée dans l'hérault.</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2"
+                             href="<?php echo BASE_URL?>/files/pdf/ppe_la_beauf.pdf" target="_blank">En savoir plus</a>
+
+                     </div>
+                 </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
+                 <div class="card">
+                    <div class="bg-m2l">
+                        <img src="files/img/m2l_logo.png" class="card-img-top p-4 border-bottom" alt="Logo M2L">
+                    </div>
+                     <div class="card-body">
+                         <h5 class="card-title">M2L Formation</h5>
+                         <p class="card-text">A définir....</p>
+                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
+                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
+                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
+
+                     </div>
+                 </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
+                 <div class="card">
+                     <img src="files/img/windows_server.png" class="card-img-top " alt="Logo ETG">
+                     <div class="card-body">
+                         <h5 class="card-title">GLPI</h5>
+                         <p class="card-text">Mise en place d'un GLPI10 sous debian.</p>
                          <a type="button" class="btn btn-light btn-sm mt-2 disabled"
                              href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
                                  class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
