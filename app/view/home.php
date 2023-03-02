@@ -236,7 +236,7 @@
                               <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                                   <div class="d-flex align-items-center">
                                       <img src="files/img/nagios.png" alt="nagios logo" height="35px" class="me-2 ps-0">
-                                      <p class="fw-bold m-0 small">Supervision</p>
+                                      <p class="fw-bold m-0 small">Nagios</p>
                                   </div>
                               </div>
                               <div class="col">

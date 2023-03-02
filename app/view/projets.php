@@ -135,21 +135,6 @@
                      </div>
                  </div>
              </div>
-             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
-                 <div class="card">
-                    <div class="bg-m2l">
-                        <img src="files/img/m2l_logo.png" class="card-img-top p-4 border-bottom" alt="Logo M2L">
-                    </div>
-                     <div class="card-body">
-                         <h5 class="card-title">M2L Formation</h5>
-                         <p class="card-text">Interface web permettant de gérer les formations des salariés d'une société.</p>
-                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
-                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
-                                 class="fa-solid fa-triangle-exclamation me-1"></i>Bientôt disponible</a>
-
-                     </div>
-                 </div>
-             </div>
          </div>
 
      </div>
