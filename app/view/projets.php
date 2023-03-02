@@ -142,23 +142,10 @@
                     </div>
                      <div class="card-body">
                          <h5 class="card-title">M2L Formation</h5>
-                         <p class="card-text">A définir....</p>
+                         <p class="card-text">Interface web permettant de gérer les formations des salariés d'une société.</p>
                          <a type="button" class="btn btn-light btn-sm mt-2 disabled"
                              href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
-                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
-
-                     </div>
-                 </div>
-             </div>
-             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
-                 <div class="card">
-                     <img src="files/img/windows_server.png" class="card-img-top " alt="Logo ETG">
-                     <div class="card-body">
-                         <h5 class="card-title">GLPI</h5>
-                         <p class="card-text">Mise en place d'un GLPI10 sous debian.</p>
-                         <a type="button" class="btn btn-light btn-sm mt-2 disabled"
-                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
-                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
+                                 class="fa-solid fa-triangle-exclamation me-1"></i>Bientôt disponible</a>
 
                      </div>
                  </div>
