@@ -43,7 +43,7 @@
          <h3 class="fw-light">Projets perso et pro</h3>
          <!-- Projets -->
          <div class="row gy-4 gy-md-0 mt-4 px-4">
-             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-3">
 
                  <div class="card">
                     <div class="bg-card">
@@ -60,7 +60,7 @@
                  </div>
 
              </div>
-             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-3">
                  <div class="card">
                     <div class="bg-card">
                         <img src="files/img/etg.png" class="card-img-top p-4 border-bottom" alt="Logo ETG">
@@ -76,7 +76,7 @@
                  </div>
              </div>
 
-             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-3">
                  <div class="card">
                     <div class="bg-card">
                         <img src="files/img/socah_green.png" class="card-img-top p-4 border-bottom" alt="Logo">
@@ -86,13 +86,12 @@
                          <p class="card-text">Application Desktop destinée à aider la flotte commerciaux dans la gestion
                              de leur portefeuille client.</p>
                          <a type="button" class="btn btn-light btn-sm mt-2 disabled"
-                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i
-                                 class="fa-solid fa-triangle-exclamation me-1"></i>En savoir plus</a>
+                             href="<?php echo BASE_URL?>/files/pdf/" target="_blank"><i class="fa-solid fa-wrench me-2"></i>En cours d'élaboration</a>
 
                      </div>
                  </div>
              </div>
-             <div class=" col-xs-12 col-sm-6 col-lg-3 my-2">
+             <div class=" col-xs-12 col-sm-6 col-lg-3 my-3">
                  <div class="card">
                      <img src="files/img/windows_server.png" class="card-img-top border-bottom" alt="Logo Windows Server">
                      <div class="card-body">
@@ -106,8 +105,8 @@
                  </div>
              </div>
          </div>
-         <div class="row gy-4 gy-md-0 mt-4 px-4">
-             <div class=" col-xs-12 col-sm-6  col-lg-3 my-2">
+         <div class="row gy-4 gy-md-0 mt-4 px-4 d-flex justify-content-center">
+             <div class=" col-xs-12 col-sm-6  col-lg-3 my-3">
                  <div class="card">
                     <div class="bg-card">
                         <img src="files/img/glpi_logo.png" class="card-img-top p-4 border-bottom" alt="Logo GLPI">
@@ -121,7 +120,7 @@
                      </div>
                  </div>
              </div>
-             <div class="col-xs-12 col-sm-6 col-lg-3 my-2">
+             <div class="col-xs-12 col-sm-6 col-lg-3 my-3">
                  <div class="card">
                     <div class="d-flex justify-content-center py-2 border-bottom bg-card">
                         <img src="files/img/labeauf_logo.png" class="card-img-top" alt="Logo la Beauf" style="height:110px; width:110px;">

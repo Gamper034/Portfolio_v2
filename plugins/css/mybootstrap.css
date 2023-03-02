@@ -10769,5 +10769,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-primary {
+  color: #F2F2F2;
+}
 
 /*# sourceMappingURL=mybootstrap.css.map */
