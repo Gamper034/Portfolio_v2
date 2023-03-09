@@ -62,7 +62,7 @@
             </div>
         </div>
         <div class="d-flex justify-content-center">
-            <a type="button" class="btn btn-light btn-sm mt-2" href="<?php echo BASE_URL?>/img/ppe/note_de_synthèse_sécurité_web.pdf" target="_blank"><i class="fa-regular fa-file-pdf fa-xl me-1"></i>Ma synthèse</a>
+            <a type="button" class="btn btn-light btn-sm mt-2" href="<?php echo BASE_URL?>/files/pdf/note_de_synthèse_sécurité_web.pdf" target="_blank"><i class="fa-regular fa-file-pdf fa-xl me-1"></i>Ma synthèse</a>
         </div>
     </div>
 </section>

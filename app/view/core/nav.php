@@ -14,10 +14,10 @@
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item nav-style">
-                    <a class="nav-link" href="/projets">Projets</a>
+                    <a class="nav-link" href="<?php echo BASE_URL?>/projets">Projets</a>
                 </li>
                 <li class="nav-item nav-style">
-                    <a class="nav-link" href="/veille">Veille</a>
+                    <a class="nav-link" href="<?php echo BASE_URL?>/veille">Veille</a>
                 </li>
             </ul>
           </div>

@@ -7,3 +7,12 @@ RewriteRule ^(.*)$ index.php [L]
 
 php_flag display_startup_errors on
 php_flag display_errors on
+
+
+# RewriteEngine on
+# RewriteCond %{HTTP_HOST} ^anthonydiaz.fr [NC,OR]
+# RewriteCond %{HTTP_HOST} ^www.anthonydiaz.fr [NC]
+# # RewriteRule ^(.*)$ http://autredomaine.fr/$1 [L,R=301,NC]
+# # RewriteCond %{REQUEST_URI} !\.(js|ico|txt|gif|jpg|png|css|woff|woff2|ttf|pdf)
+
+# DirectoryIndex index.php

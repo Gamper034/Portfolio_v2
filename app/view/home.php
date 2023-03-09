@@ -21,14 +21,17 @@
                               En dehors de l'informatique je suis également un grand passionné de photographies et de
                               voyages. Certaines photos du site sont issues de mes propres voyages.<br>
 
-                              <a type="button" class="btn btn-light btn-sm mt-2"
-                                  href="<?php echo BASE_URL?>/files/pdf/DIAZ_Anthony_CV.pdf" target="_blank"><i
-                                      class="fa-regular fa-file-pdf fa-xl me-1"></i>Télécharger mon CV</a>
+                                <a type="button" class="btn btn-light btn-sm mt-2"
+                                  href="files/pdf/DIAZ_Anthony_CV.pdf" target="_blank"><i
+                                      class="fa-regular fa-file-pdf fa-xl me-1"></i>Mon CV en Français</a>
+                                <a type="button" class="btn btn-light btn-sm mt-2 disabled"
+                                  href="/" target="_blank"><i
+                                      class="fa-regular fa-file-pdf fa-xl me-1"></i>Mon CV en Anglais</a>
                           </div>
 
                       </div>
                       <div class="col-md-12 col-lg-4 order-1 order-lg-2 my-4 d-flex justify-content-center">
-                          <img src="<?php echo BASE_URL?>/files/img/IMG_3942.jpg" class="rounded"
+                          <img src="files/img/IMG_3942.jpg" class="rounded"
                               alt="Pho de Diaz Anthony" id="profilPhoto">
                       </div>
                   </div>
@@ -325,10 +328,8 @@
                                       <div class="white_border"></div>
                                       <div class="d-flex flex-column mb-3 text-white">
                                           <div class="p-1 fs-5">Anthony Diaz</div>
-                                          <div class="p-1 fst-italic">Apprenti technicien réseau & développeur</div>
+                                          <div class="p-1 fst-italic">Apprenti développeur web & technicien réseau</div>
                                           <div class="p-1">
-                                              <span class="me-4"><i class="fa-solid fa-phone me-2"></i>07 78 14 38
-                                                  56</span>
                                               <span><i
                                                       class="fa-solid fa-envelope me-2"></i>anthony-diaz@outlook.fr</span>
                                           </div>
@@ -381,29 +382,29 @@
 
 
   <script>
-$('#submitForm').click(function() {
-    $.ajax({
-        url: "/ajax_contact",
-        method: "POST",
-        // dataType: 'JSON',
-        data: {
-            firstname: $('#firstname').val(),
-            name: $('#name').val(),
-            email: $('#email').val(),
-            message: $('#message').val(),
-        },
-        success: function(data) {
-            if (data == true) {
-                toastr.success('Votre demande a bien été envoyée.');
-                $("#submitForm, #firstname, #name, #email, #message").prop("disabled", true);
-                $('#firstname').val('');
-                $('#name').val('');
-                $('#email').val('');
-                $('#message').val('');
-            } else {
-                toastr.error(data.message);
+    $('#submitForm').click(function() {
+        $.ajax({
+            url: "/ajax_contact",
+            method: "POST",
+            // dataType: 'JSON',
+            data: {
+                firstname: $('#firstname').val(),
+                name: $('#name').val(),
+                email: $('#email').val(),
+                message: $('#message').val(),
+            },
+            success: function(data) {
+                if (data == true) {
+                    toastr.success('Votre demande a bien été envoyée.');
+                    $("#submitForm, #firstname, #name, #email, #message").prop("disabled", true);
+                    $('#firstname').val('');
+                    $('#name').val('');
+                    $('#email').val('');
+                    $('#message').val('');
+                } else {
+                    toastr.error(data.message);
+                }
             }
-        }
+        });
     });
-});
   </script>
