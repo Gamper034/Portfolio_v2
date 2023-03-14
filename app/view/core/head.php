@@ -3,6 +3,7 @@
 
 <head>
   <title>Anthony DIAZ - Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="files/img/icon.ico">
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
