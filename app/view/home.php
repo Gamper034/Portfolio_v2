@@ -1,4 +1,4 @@
-  <main>
+<main>
       <div class="container-build" id="headHome">
           <div class="legend_head">
               <p class="m-0">Bienvenue sur mon PORTFOLIO</p>
@@ -15,14 +15,14 @@
                   <div class="row">
                       <div class="col-md-12 col-lg-8 order-2 order-lg-1 my-4 d-flex align-items-center">
                           <div>Issu d'un premier BTS CG et après une expérience en comptabilité, je me suis réorienté
-                              vers un BTS SIO option SLAM en alternance, je travaille éventuellement sur des projets de
-                              développement web pour améliorer le quotidien des utilisateurs sur notre intranet.
+                              vers un BTS SIO option SLAM en alternance au sein de la société SOCAH Distribution basée à Clermont l'Hérault. <br> 
+                              Je travaille éventuellement sur des projets de développement web pour améliorer le quotidien des utilisateurs sur notre intranet.
                               J'effectue aussi du support afin d'améliorer mes compétences en Système & Réseau. <br>
                               En dehors de l'informatique je suis également un grand passionné de photographies et de
                               voyages. Certaines photos du site sont issues de mes propres voyages.<br>
 
                                 <a type="button" class="btn btn-light btn-sm mt-2"
-                                  href="files/pdf/DIAZ_Anthony_CV.pdf" target="_blank"><i
+                                  href="files/pdf/CV_FR.pdf" target="_blank"><i
                                       class="fa-regular fa-file-pdf fa-xl me-1"></i>Mon CV en Français</a>
                                 <a type="button" class="btn btn-light btn-sm mt-2 disabled"
                                   href="/" target="_blank"><i
@@ -169,11 +169,28 @@
                               </div>
                           </div>
                       </div>
+                      <div class="p-3">
+                          <div class="row align-items-center">
+                              <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                                  <div class="d-flex align-items-center">
+                                      <img src="files/img/python.png" alt="jquery icon" height="30px" class="me-2 ps-0">
+                                      <p class="fw-bold m-0">Python</p>
+                                  </div>
+                              </div>
+                              <div class="col">
+                                  <div class="progress">
+                                      <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="25"
+                                          aria-valuemin="0" aria-valuemax="100">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
                       <div class="mb-3 p-3">
                           <div class="row align-items-center">
                               <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                                   <div class="d-flex align-items-center">
-                                      <img src="files/img/java.png" alt="nagios logo" height="35px" class="me-4 ps-0">
+                                      <img src="files/img/java.png" alt="nagios logo" height="35px" class="me-3 ps-1">
                                       <p class="fw-bold m-0">Java</p>
                                   </div>
                               </div>
@@ -244,7 +261,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-50 bg-primary" role="progressbar" aria-valuenow="50"
+                                      <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -261,7 +278,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="25"
+                                      <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
