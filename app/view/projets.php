@@ -101,7 +101,7 @@
              </div>
              <div class=" col-xs-12 col-sm-6 col-lg-3 my-3">
                  <div class="card">
-                     <img src="files/img/windows_server.png" class="card-img-top border-bottom" alt="Logo Windows Server">
+                     <img src="files/img/windows_server.jpg" class="card-img-top border-bottom" alt="Logo Windows Server">
                      <div class="card-body">
                          <h5 class="card-title">Serveur d'impression</h5>
                          <p class="card-text">Mise en place d'un serveur d'impression.
