@@ -10771,6 +10771,11 @@ textarea.form-control-lg {
 }
 .btn-primary {
   color: #F2F2F2;
+  --bs-btn-disabled-color: #F2F2F2;
+}
+
+.btn-primary:hover {
+  color: #F2F2F2;
 }
 
 /*# sourceMappingURL=mybootstrap.css.map */

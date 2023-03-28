@@ -32,7 +32,7 @@
                       </div>
                       <div class="col-md-12 col-lg-4 order-1 order-lg-2 my-4 d-flex justify-content-center">
                           <img src="files/img/IMG_3942.jpg" class="rounded"
-                              alt="Pho de Diaz Anthony" id="profilPhoto">
+                              alt="Photo de Diaz Anthony" id="profilPhoto">
                       </div>
                   </div>
               </div>
@@ -345,10 +345,10 @@
                                       <div class="white_border"></div>
                                       <div class="d-flex flex-column mb-3 text-white">
                                           <div class="p-1 fs-5">Anthony Diaz</div>
-                                          <div class="p-1 fst-italic">Apprenti développeur web & technicien réseau</div>
+                                          <div class="p-1 fst-italic">Apprenti développeur web</div>
                                           <div class="p-1">
                                               <span><i
-                                                      class="fa-solid fa-envelope me-2"></i>anthony-diaz@outlook.fr</span>
+                                                      class="fa-solid fa-envelope me-2"></i>contact@anthonydiaz.fr</span>
                                           </div>
                                       </div>
 
