@@ -179,7 +179,7 @@
                               </div>
                               <div class="col">
                                   <div class="progress">
-                                      <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="25"
+                                      <div class="progress-bar w-50 bg-primary" role="progressbar" aria-valuenow="50"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
@@ -238,13 +238,30 @@
                           <div class="row align-items-center">
                               <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
                                   <div class="d-flex align-items-center">
-                                      <i class="fas fa-database fa-2x me-3 text-primary"></i>
-                                      <p class="fw-bold m-0">Maria DB</p>
+                                    <img src="files/img/mariadb_logo.png" alt="nagios logo" height="35px" class="me-2 ps-0">
+                                    <p class="fw-bold m-0">Maria DB</p>
                                   </div>
                               </div>
                               <div class="col">
                                   <div class="progress">
                                       <div class="progress-bar w-75 bg-primary" role="progressbar" aria-valuenow="75"
+                                          aria-valuemin="0" aria-valuemax="100">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="p-3 ">
+                          <div class="row align-items-center">
+                              <div class="col-5 col-sm-4 col-lg-3 col-xl-2">
+                                  <div class="d-flex align-items-center">
+                                    <img src="files/img/SQLServer_logo.png" alt="nagios logo" height="35px" class="me-2 ps-0">
+                                    <p class="fw-bold m-0">SQL Server</p>
+                                  </div>
+                              </div>
+                              <div class="col">
+                                  <div class="progress">
+                                      <div class="progress-bar w-25 bg-primary" role="progressbar" aria-valuenow="25"
                                           aria-valuemin="0" aria-valuemax="100">
                                       </div>
                                   </div>
