@@ -18,7 +18,7 @@
         </p>
         <h3 class="fw-light text-center mt-4">Mes Sources</h3>
         <p class="px-4 text-center mb-4">Pour me tenir informé, j'utilise essentiellement les <b>Flux RSS</b> via le logiciel
-            Feedly. Je consulte également différents <b>blogs</b> et <b>podcasts</b>. Voici à titre d'exemple, les
+            Feedly. Je consulte également différents <b>blogs</b> et <b>podcasts</b>. J'utilise aussi le site <a href="https://www.daily.dev" target="_blank">Daily.Dev</a> qui me permet de me documenter sur les dernières technologies liées au développement. Voici à titre d'exemple, les
             sources que j'utilise au quotidien:
         </p>
         <div class="row d-flex justify-content-center px-4">
